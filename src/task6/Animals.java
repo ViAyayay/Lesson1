@@ -11,8 +11,6 @@ abstract class Animals {
 
     protected static int getObjectCount() { return objectCount; }
 
-    protected String ya(){ return name; }
-
     protected void run(int distance){
         if(runBound>0){
             if(Math.abs(distance)<=runBound && distance != 0) {
